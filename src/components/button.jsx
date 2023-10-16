@@ -2,6 +2,6 @@ import './button.css'
 
 export function Button(params){
    return (
-      <button className='btn'> click! </button>
+      <button className='btn'> click faster! </button>
    )
 }
