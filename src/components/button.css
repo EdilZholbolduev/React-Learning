@@ -1,0 +1,21 @@
+.btn{
+   background-color:red;
+   border: none;
+   cursor: pointer;
+   height: 33px;
+   width: 60px;
+   border-radius: 5px;
+   font-family: monospace;
+}
+
+.btn:hover{
+   background-color: black;
+   color:white;
+   transition: 0.4s;
+}
+
+.btn:active{
+   background-color: white;
+   color:black;
+   transition: 0.1s;
+}
