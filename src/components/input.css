@@ -1,10 +1,11 @@
 .input{
    outline: none;
-   margin: 0px 10px 0px 10px;
-   border: 1px dotted black;
+   border: 1px solid #64ccc5;
    height: 20px;
-   width: 350px;
+   width: 90%;
    font-family: monospace;
    padding: 6px;
    border-radius: 5px;
+   background-color: #64CCC5;
+   color: white;
 }

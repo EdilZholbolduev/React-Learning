@@ -1,6 +1,35 @@
 .App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  background-color:#1F4172 ;
+  height: 350px;
+  width: 500px;
+  border-radius: 10px;
+  padding: 8px;
+}
+.top{
+  width: 60%;
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+}
+p{
+  margin: 0px;
+  color: white;
+  padding: 5px;
+}
+.bottom{
   text-align: center;
-  margin-top: 150px;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
 }
 
 .App-logo {
