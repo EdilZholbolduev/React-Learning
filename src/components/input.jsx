@@ -4,6 +4,8 @@ import './input.css'
 export function Input(){
    const [name, setName] = useState ()
    const [surname, setSurname] = useState()
+
+   
    return(
       <>
       <input className='input' placeholder='Name' value={name} onChange={(event)=>setName(event.target.value)}/>

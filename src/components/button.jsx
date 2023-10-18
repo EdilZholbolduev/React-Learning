@@ -4,14 +4,19 @@ import {Input} from './input'
 
 export function Button(){ 
 
-   const [test, setTest] = useState("activate")
+   const [test, setTest] = useState("submit")
    const [good, setGood] = useState('')
    return (
       <>
       <button className='btn' 
       onClick={()=>{
-      setTest("done!")
-      setGood("✅✅✅")
+         if(test === "submit"){
+            setTest("add new")
+            setGood("✅✅✅")
+         }else if(test === "add new"){
+            setTest("submit")
+            setGood("")
+         }
       }
       }>
       {test}
