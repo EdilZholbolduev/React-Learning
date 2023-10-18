@@ -1,11 +1,20 @@
 .input{
    outline: none;
    border: 1px solid #64ccc5;
-   height: 20px;
-   width: 90%;
+   height: 30px;
    font-family: monospace;
    padding: 6px;
    border-radius: 5px;
    background-color: #64CCC5;
    color: white;
+   width: 400px;
+   font-size: 20px;
+}
+h1{
+   color: white;
+}
+ul{
+   color: white;
+   font-family: monospace;
+   font-size: 25px;
 }

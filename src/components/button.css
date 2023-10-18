@@ -2,19 +2,22 @@
    background-color:red;
    border: none;
    cursor: pointer;
-   height: 33px;
+   height: 40px;
+   width: 70px;
    border-radius: 5px;
    font-family: monospace;
+   font-size: 20px;
+   color: white;
 }
 
 .btn:hover{
    background-color: black;
-   color:white;
+   color:red;
    transition: 0.4s;
 }
 
 .btn:active{
    background-color: white;
    color:black;
-   transition: 0.1s;
+   transition: 0.2s;
 }

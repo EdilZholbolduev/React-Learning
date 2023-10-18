@@ -6,14 +6,12 @@ import { Input } from './components/input'
 function App() {
   return (
     <div className="container"> 
-    <div className="App">
-      <div className='top'>
-        <Input/>
+      <h1>To do list</h1>
+          <div className="App">
+          <Input/>
+          <div className='top'>
+        </div>
       </div>
-      <div className='bottom'>
-        <Button/>
-      </div>
-    </div>
     </div>
   ); 
 }
