@@ -17,6 +17,9 @@ export function Input(){
         setNewItem('')
       }
     }
+    const reloadPage =()=>{
+      window.location.reload()
+    } 
 
    // return(
    //    <p>
@@ -36,6 +39,7 @@ export function Input(){
        <input className='input'type="text" placeholder="idea" value={newItem} onChange={inputContent}/>
         
          <button className='btn' onClick={additionItem} >Add</button>
+         <button className='btnReload' onClick={reloadPage}> Clean </button>
        <div className='response'>
          <ul>
             {items.map((item, index) => (

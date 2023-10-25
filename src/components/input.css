@@ -18,3 +18,26 @@ ul{
    font-family: monospace;
    font-size: 25px;
 }
+.btnReload{
+   background-color:red;
+   border: none;
+   cursor: pointer;
+   height: 40px;
+   width: 70px;
+   border-radius: 5px;
+   font-family: monospace;
+   font-size: 20px;
+   color: white;
+}
+
+.btnReload:hover{
+   background-color: white;
+   color:red;
+   transition: 0.4s;
+}
+
+.btnReload:active{
+   background-color: red;
+   color:white;
+   transition: 0.4s;
+}

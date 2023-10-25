@@ -1,5 +1,5 @@
 .btn{
-   background-color:red;
+   background-color:#99B080;
    border: none;
    cursor: pointer;
    height: 40px;
@@ -11,13 +11,13 @@
 }
 
 .btn:hover{
-   background-color: black;
-   color:red;
+   background-color: white;
+   color:#99B080;
    transition: 0.4s;
 }
 
 .btn:active{
-   background-color: white;
-   color:black;
+   background-color: #99B080;
+   color:white;
    transition: 0.2s;
 }
